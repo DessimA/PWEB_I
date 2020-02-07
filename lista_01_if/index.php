@@ -10,16 +10,19 @@
         <form action="ex01.php" method="get">
             Digite um número inteiro: <input type="int" name="numero">
 </form>
+        <br/><br/>
         
-         <form action="ex02.php" method="get">
-            Número 01: <input type="int" name="n1">
-            Número 02: <input type="int" name="n1">
+         <form action="ex02.php" method="post">
+             Número 01: <input type="text" name="n1"><br/>
+             Número 02: <input type="text" name="n2"><br/>
+             <input type="submit">
 </form>
+        <br/><br/>
         
          <form action="ex03.php" method="get">
-            Nome: <input type="text" name="nomecompleto">
-            Idade: <input type="int" name="idade">
-            Sexo: <input type="char" name="sexo">
+            Nome: <input type="text" name="nomecompleto"><br/>
+            Idade : <input type="int" name="idade"><br/>
+            Sexo : <input type="char" name="sexo"><br/>
 </form>
     </body>
 </html>
