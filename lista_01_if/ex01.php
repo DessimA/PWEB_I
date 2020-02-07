@@ -2,7 +2,7 @@
 
 $Numero = $_GET["numero"];
 
-if($NumeroNum % 10 == 0){
+if($Numero % 10 == 0){
         echo "$Numero é divisivel por 10";
     }
     else if($Numero % 5 == 0){
