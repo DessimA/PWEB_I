@@ -19,10 +19,11 @@
 </form>
         <br/><br/>
         
-         <form action="ex03.php" method="get">
+         <form action="ex03.php" method="post">
             Nome: <input type="text" name="nomecompleto"><br/>
             Idade : <input type="int" name="idade"><br/>
             Sexo : <input type="char" name="sexo"><br/>
+            <input type="submit">
 </form>
     </body>
 </html>
