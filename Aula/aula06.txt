@@ -1,0 +1,25 @@
+Array
+
+Array = "Arranjo"
+
+	No PHP, array são um mapa ordenado do tipo "chave-valor".
+	
+	Pode ser chave em um array PHP:
+
+		-Inteiros	-Float*		-null*
+		-String*	-boleano*
+
+$arr = array("uva","pera","maça");
+$arr2 = [	"fruta-1" => "uva",
+		"fruta-2" => "pera",
+		"fruta-3" => "maça"];
+
+$arr3 = [];
+$arr3[10] = 1000;
+$arr3[5] = "Caderno";
+
+print_r($arr);
+
+Restrições de chaves
+
+	O PHP não permite usar array, object e resource como índice de um array.
