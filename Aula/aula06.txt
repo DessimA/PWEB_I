@@ -77,3 +77,10 @@ php.net
 
 *count() //total de elementos
 *sort() // ordena de acordo com uma função
+
+$notasAlunos = ["joão" => 10, "Ana" => 8, "Silvia" => 10];
+
+unset($notasAlunos["Ana"]); //apaga somente Ana
+unset($notasAlunos); //apaga todo array
+
+array_push($notasAlunos, "José" => 5);
