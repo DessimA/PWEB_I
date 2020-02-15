@@ -65,3 +65,8 @@ Funções úteis
 
 *array_pop() //apaga o ultimo elemento
 *array_push() //inseri no final da pilha
+
+w3schools.com/php
+php.net
+
+->PHP orientado a objetos - Pablo Doglio
