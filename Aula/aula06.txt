@@ -64,9 +64,13 @@ Funções úteis
 	unset($arr);
 
 *array_pop() //apaga o ultimo elemento
-*array_push() //inseri no final da pilha
+*array_push() //inseri no final da array
 
 w3schools.com/php
 php.net
 
 ->PHP orientado a objetos - Pablo Doglio
+
+*array_shift() //remove o primeiro elemento
+*array_slice() //divide e retorna determinado elemento
+*array_replace() //substitui elemento
