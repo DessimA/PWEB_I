@@ -1,4 +1,4 @@
-Array
+--Array
 
 Array = "Arranjo"
 
@@ -24,7 +24,7 @@ print_r ($arr2);
 print_r ($arr3);
 echo "</pre>";
 
-Restrições de chaves
+--Restrições de chaves
 
 	O PHP não permite usar array, object e resource como índice de um array.
 
@@ -39,7 +39,7 @@ saida:
 
 array([1] => "d")
 
-Outros exemplos:
+--Outros exemplos:
 
 echo $arr2["Fruta-2"];
 echo $arr2[-50];
@@ -56,7 +56,7 @@ $arr = array("uva", "pera", 8 => "maça", "banana", "manga", 20 => array("figo",
 
 echo $arr[20][0];
 
-Funções úteis
+--Funções úteis
 
 *unset - Destrói a variável especificada
 
