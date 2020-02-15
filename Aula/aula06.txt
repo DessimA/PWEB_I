@@ -73,7 +73,7 @@ php.net
 
 *array_shift() //remove o primeiro elemento
 *array_slice() //divide e retorna determinado elemento
-*array_replace() //substitui elemento
+*array_replace() //substitui o array inteiro
 
 *count() //total de elementos
 *sort() // ordena de acordo com uma função
@@ -90,3 +90,4 @@ array_pop($notasAlunos); // exclui item do final do array, aceita apenas um para
 array_shift($notasAlunos); //exclui o primeiro elemento do array, tbm apenas um paramentro (lento)
 array_unshift($notasAlunos, 10); //alem de remover ele troca(muito lento)
 echo count($notasAlunos); //conta os elementos e imprimi
+array_replace($notasAlunos,$arr2); // informa o array original e troca por outro array
