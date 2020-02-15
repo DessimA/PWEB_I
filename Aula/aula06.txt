@@ -87,4 +87,5 @@ array_push($notasAlunos, "José" => 5); //como o push trabalha com o conceito e 
 
 array_push($notasAlunos,5, 8, 9);
 array_pop($notasAlunos); // exclui item do final do array, aceita apenas um paramentro
-array_shift($notasAlunos); //exclui o primeiro elemento do array, tbm apenas um paramentro
+array_shift($notasAlunos); //exclui o primeiro elemento do array, tbm apenas um paramentro (lento)
+array_unshift($notasAlunos, 10); //alem de remover ele troca(muito lento)
