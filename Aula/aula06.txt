@@ -18,8 +18,40 @@ $arr3 = [];
 $arr3[10] = 1000;
 $arr3[5] = "Caderno";
 
+echo "<pre>"; 
 print_r($arr);
+print_r ($arr2);
+print_r ($arr3);
+echo "</pre>";
 
 Restrições de chaves
 
 	O PHP não permite usar array, object e resource como índice de um array.
+
+$array = array(	1 => "a",
+		"1" => "b",
+		1.8 => "c",
+		true => "d");
+
+print_r($array);
+
+saida:
+
+array([1] => "d")
+
+Outros exemplos:
+
+echo $arr2["Fruta-2"];
+echo $arr2[-50];
+
+
+	Arrays PHP são estruturas de dados heterogêneos. Em um mesmo array, podemos inserir dados dos mais diversos tipos.
+
+$dados = [ "nome" => "Maria",
+	   "idade" => 30,
+	   "Endereço" => "Cedro",
+	   "Salario" => 5000.0];
+
+$arr = array("uva", "pera", 8 => "maça", "banana", "manga", 20 => array("figo","pera"));
+
+echo $arr[20][0];
