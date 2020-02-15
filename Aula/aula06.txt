@@ -58,6 +58,10 @@ echo $arr[20][0];
 
 Funções úteis
 
-*unset
+*unset - Destrói a variável especificada
+
 	unset($arr[10]);
 	unset($arr);
+
+*array_pop() //apaga o ultimo elemento
+*array_push() //inseri no final da pilha
