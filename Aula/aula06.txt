@@ -55,3 +55,9 @@ $dados = [ "nome" => "Maria",
 $arr = array("uva", "pera", 8 => "maça", "banana", "manga", 20 => array("figo","pera"));
 
 echo $arr[20][0];
+
+Funções úteis
+
+*unset
+	unset($arr[10]);
+	unset($arr);
