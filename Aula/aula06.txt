@@ -74,3 +74,6 @@ php.net
 *array_shift() //remove o primeiro elemento
 *array_slice() //divide e retorna determinado elemento
 *array_replace() //substitui elemento
+
+*count() //total de elementos
+*sort() // ordena de acordo com uma função
