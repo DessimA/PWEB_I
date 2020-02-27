@@ -1,0 +1,17 @@
+Escopo de variáveis
+
+Superglobais:
+
+	$_GET
+	$_POST
+	$GLOBALS
+	$_SERVER
+	$_REQUEST
+	$_FILES
+	$_COOKIE
+	$_SESSION
+
+Globais:
+
+	$x = 10;
+	echo $GLOBALS['x'];
