@@ -1,0 +1,37 @@
+Aula de exercícios
+
+OBS. Use formularios para enviar os dados entre as paginas.
+
+1) Crie uma aplicação que simule uma autenticação de usuários usando login e senha. O fluxo da aplicação é descrito a seguir:
+
+___________                 ___________
+| login   |                 |bem vindo|
+| ::::::  | redireciona ->  |         |
+| ::::::  |                 |         |
+| entrar  |                 |         |
+-----------                 -----------
+^
+|
+retorna mostra o erro
+
+Se o login estiver errado retorna para pagina inicial e mostra o erro
+
+2) Crie o seguinte fomulario de cadastro. Ao clicar em salvar, o usuário devera ser encaminhado para uma segunda página onde os dados inseridos serão exibidos em tabela. Se algum campo for deixado em branco, uma mensagem de erro deverá ser exibida na página de cadastro.
+
+Cadastro de usuários, deve conter campos para:
+
+* Nome completo;
+* Email;
+* telefone 1 e telefone 2;
+* profissão;  
+* Escolaridade // superior, medio ou fundamental campos de seleção
+* caixa de "aceito os termos do contrato";
+* botão de salvar.
+
+/////////// Dica do professor ////////////
+
+index.php / welcome.php -> header("Location:index?msg=Erro");
+
+/////////////////////////////////////////
+
+  
