@@ -31,7 +31,7 @@ Cadastro de usuários, deve conter campos para:
 /////////// Dica do professor ////////////
 
 index.php / welcome.php -> header("Location:index?msg=Erro");
-
+	$senha=md5($_POST['s']);
 /////////////////////////////////////////
 
   
