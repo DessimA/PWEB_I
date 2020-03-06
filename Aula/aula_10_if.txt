@@ -23,3 +23,12 @@ $_FILES["nomedocampo"][]
 -> type
 -> tmp_name
 -> error
+
+if (isset($_FILES['fileUpload'])){
+
+	$name = $_FILES['fileUpload']['name'];
+	$dir = 'uploads/';
+
+move_uploaded_file($_FILES['fileUpload']['tmp_name'], $dir.$name);
+
+}
