@@ -8,8 +8,18 @@
 	<input type="file" name="fileUpload">
 	<input type="submit" value="Enviar">
 
-	</form>
+	4</form>
 
 	</body>
  </html>
  
+
+Estrutura do $_FILES
+
+$_FILES["nomedocampo"][]
+
+-> name
+-> size
+-> type
+-> tmp_name
+-> error
