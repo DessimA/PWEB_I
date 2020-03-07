@@ -5,14 +5,30 @@
 	<body>
 	
 		<form action="#" method="POST" enctype= "multipart/form-data">
-	<input type="file" name="fileUpload">
-	<input type="submit" value="Enviar">
+                <input type="file" name="fileUpload">
+                <input type="submit" value="Enviar">
 
-	4</form>
+	</form>
+            
+            <?php
+            
+            if (isset($_FILES['fileUpload'])){
+
+            $name = $_FILES['fileUpload']['name'];
+            $dir = 'uploads/';
+
+            move_uploaded_file($_FILES['fileUpload']['tmp_name'], $dir.$name);
+
+    }else{
+        echo "Nenhum arquivo enviado";
+    }
+            
+            
+            ?>
 
 	</body>
  </html>
- 
+  
 
 Estrutura do $_FILES
 
@@ -24,11 +40,3 @@ $_FILES["nomedocampo"][]
 -> tmp_name
 -> error
 
-if (isset($_FILES['fileUpload'])){
-
-	$name = $_FILES['fileUpload']['name'];
-	$dir = 'uploads/';
-
-move_uploaded_file($_FILES['fileUpload']['tmp_name'], $dir.$name);
-
-}
