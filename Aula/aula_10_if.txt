@@ -40,3 +40,21 @@ $_FILES["nomedocampo"][]
 -> tmp_name
 -> error
 
+
+3) Crie um pequeno sistema de upload de imagem. Exiba a imagem logo após o upload.
+
+
+ _________
+|         |
+|         |
+| imagem  |
+|         |
+|         |
+ _________
+ 
+ _________
+| arquivo |nehum imagem
+¨¨¨¨¨¨¨¨¨¨¨
+ _________
+|mudarfoto|
+¨¨¨¨¨¨¨¨¨¨¨
