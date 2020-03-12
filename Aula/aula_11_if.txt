@@ -1,0 +1,5 @@
+include "nome_arquivo.php"; //sempre que ele for requerido ele será incluido
+include_once "nome_arquivo.php" //se em algum momento o arquivo for incluido e requisitado novamente ele não inclue novamente
+require
+require_once
+
