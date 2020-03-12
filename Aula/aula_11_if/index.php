@@ -7,7 +7,7 @@
 </head>
 <body >
     <div id="wrap">
-        <form method="post" action='validar/mostrar-pedido.php' id="delivery-form" >
+        <form method="post" action='pedido/mostrar.php' id="delivery-form" >
         <div>
             <div class="cont_order">
                <fieldset>
